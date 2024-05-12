@@ -1,7 +1,7 @@
 import req_townp
 import csv,time
 
-with open("input_2.csv", 'r', encoding='cp932') as f:
+with open("input.csv", 'r', encoding='cp932') as f:
     reader = csv.reader(f)
     for line in reader:
         where_list = line
